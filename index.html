@@ -94,7 +94,7 @@
                         
                     <!--<form action="#" id="searchform">-->
                     <h3>Amino acid sequence:</h3>
-                    <textarea form ="searchform" type="text" align="top" class="form-control" placeholder="Enter a sequence of amino acids by initials, e.g. MLFVL" title="Enter a sequence of amino acids by initials, e.g. MLFVL" id="search-term"></textarea>
+                    <textarea form ="searchform" type="text" align="top" class="form-control" placeholder="Enter a sequence of amino acids by initials, e.g. MLFVLPSFLCTRVC" title="Enter a sequence of amino acids by initials, e.g. MLFVL" id="search-term"></textarea>
                     <br>
                      <button type="submit" class="btn btn-success btn-lg" id="submit">Get information</button>
                     <!--</form>-->
@@ -103,8 +103,11 @@
 
                     <div id="result">
                         <h3 id="result-header">Protein:</h3>
-                        <img src="" id="protein-image">
-                        <p><a target="_blank" href="" id="result-link">
+                        <a target="_blank" href="" class="protein-link">
+                            <img src="" id="protein-image">
+                        </a>
+                        
+                        <p><a target="_blank" href="" id="result-link" class="protein-link">
                         
                         </a></p>
                     </div>
